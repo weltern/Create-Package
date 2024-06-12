@@ -1,0 +1,28 @@
+# Backup files
+*.bak
+
+# Temporary files
+*.tmp
+
+# Log files
+*.log
+
+# System files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Cache directories
+.cache
+
+# Version control directories
+*.git
+*.svn
+*.hg
+
+# Other
+*.md 
+
+# Custom exclusion patterns
+# path\to\excluded\directory\*
+# specificfiletoexclude.txt

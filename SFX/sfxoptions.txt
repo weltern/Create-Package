@@ -1,0 +1,17 @@
+; The path to extract files to
+Path=C:\Temp\TestPackage
+
+; Command to run after extraction
+Setup=Deploy-Application.exe Install Interactive
+
+; Command to run after the previous setup command completes
+Setup=C:\Windows\System32\cmd.exe /Q /C rmdir C:\Temp\TestPackage /s /q
+
+; Exit code that signifies successful setup
+SetupCode=0
+
+; Silent mode (do not show progress dialog)
+Silent=1
+
+; Overwrite existing files
+Overwrite=1
