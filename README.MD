@@ -95,7 +95,7 @@ Creates a Win32 package for Intune deployment named MyApp.intunewin using the fi
 5. Open a Pull Request.
 
 ### License
-This project is licensed under the GPL-3.0 License - see the [LICENSE](https://chatgpt.com/g/g-2DQzU5UZl-code-copilot/c/LICENSE) file for details.
+This project is licensed under the GPL-3.0 License - see the [LICENSE](https://github.com/weltern/Create-Package/blob/main/LICENSE) file for details.
 
 ### Explanation of Sections:
 
