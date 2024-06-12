@@ -1,4 +1,4 @@
-# Deployment Package Creator
+# Create-Package
 
 This PowerShell script automates the creation of deployment packages. Depending on the specified parameters, it can create a self-extracting (SFX) archive using WinRAR or a Win32 package for Intune.
 
@@ -24,8 +24,8 @@ This PowerShell script automates the creation of deployment packages. Depending 
 
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/yourusername/deployment-package-creator.git
-    cd deployment-package-creator
+    git clone https://github.com/weltern/Create-Package.git
+    cd Create-Package
     ```
 
 2. **Ensure PowerShell 5.0 or later is installed**:
