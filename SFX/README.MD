@@ -82,7 +82,6 @@ Ensure that the paths and commands in sfxoptions.txt are correctly configured fo
 Run the main script to create the SFX package:
 
 ```sh
-Copy code
 .\Create-Package.ps1 -PackageName "MyApp" -SFXPackage $true
 The generated SFX package will be stored in the Builds directory.
 ```
